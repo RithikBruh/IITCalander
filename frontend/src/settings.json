@@ -1,0 +1,107 @@
+{
+  "slot-config": {
+    "A": [
+      { "starttime": "09:00", "endtime": "09:55", "day": "MO" },
+      { "starttime": "11:00", "endtime": "11:55", "day": "WE" },
+      { "starttime": "10:00", "endtime": "10:55", "day": "TH" }
+    ],
+    "B": [
+      { "starttime": "10:00", "endtime": "10:55", "day": "MO" },
+      { "starttime": "09:00", "endtime": "09:55", "day": "WE" },
+      { "starttime": "11:00", "endtime": "11:55", "day": "TH" }
+    ],
+    "C": [
+      { "starttime": "11:00", "endtime": "11:55", "day": "MO" },
+      { "starttime": "10:00", "endtime": "10:55", "day": "WE" },
+      { "starttime": "09:00", "endtime": "09:55", "day": "TH" }
+    ],
+    "D": [
+      { "starttime": "12:00", "endtime": "12:55", "day": "MO" },
+      { "starttime": "09:00", "endtime": "09:55", "day": "TU" },
+      { "starttime": "11:00", "endtime": "11:55", "day": "FR" }
+    ],
+    "E": [
+      { "starttime": "10:00", "endtime": "10:55", "day": "TU" },
+      { "starttime": "12:00", "endtime": "12:55", "day": "TH" },
+      { "starttime": "09:00", "endtime": "09:55", "day": "FR" }
+    ],
+    "F": [
+      { "starttime": "11:00", "endtime": "11:55", "day": "TU" },
+      { "starttime": "14:30", "endtime": "15:55", "day": "WE" },
+      { "starttime": "10:00", "endtime": "10:55", "day": "FR" }
+    ],
+    "G": [
+      { "starttime": "12:00", "endtime": "12:55", "day": "TU" },
+      { "starttime": "12:00", "endtime": "12:55", "day": "WE" },
+      { "starttime": "12:00", "endtime": "12:55", "day": "FR" }
+    ],
+    "P": [
+      { "starttime": "14:30", "endtime": "15:55", "day": "MO" },
+      { "starttime": "16:00", "endtime": "17:25", "day": "TH" }
+    ],
+    "Q": [
+      { "starttime": "16:00", "endtime": "17:25", "day": "MO" },
+      { "starttime": "14:30", "endtime": "15:55", "day": "TH" }
+    ],
+    "R": [
+      { "starttime": "14:30", "endtime": "15:55", "day": "TU" },
+      { "starttime": "16:00", "endtime": "17:25", "day": "FR" }
+    ],
+    "S": [
+      { "starttime": "16:00", "endtime": "17:25", "day": "TU" },
+      { "starttime": "14:30", "endtime": "15:55", "day": "FR" }
+    ],
+    "W": [
+      { "starttime": "18:00", "endtime": "19:25", "day": "MO" },
+      { "starttime": "18:00", "endtime": "19:25", "day": "TH" }
+    ],
+    "X": [
+      { "starttime": "19:30", "endtime": "21:00", "day": "MO" },
+      { "starttime": "19:30", "endtime": "21:00", "day": "TH" }
+    ],
+    "Y": [
+      { "starttime": "18:00", "endtime": "19:25", "day": "TU" },
+      { "starttime": "18:00", "endtime": "19:25", "day": "FR" }
+    ],
+    "Z": [
+      { "starttime": "19:30", "endtime": "21:00", "day": "TU" },
+      { "starttime": "19:30", "endtime": "21:00", "day": "FR" }
+    ],
+    "FN1": [{ "starttime": "09:00", "endtime": "11:55", "day": "MO" }],
+    "FN2": [{ "starttime": "09:00", "endtime": "11:55", "day": "TU" }],
+    "FN3": [{ "starttime": "09:00", "endtime": "11:55", "day": "WE" }],
+    "FN4": [{ "starttime": "09:00", "endtime": "11:55", "day": "TH" }],
+    "FN5": [{ "starttime": "09:00", "endtime": "11:55", "day": "FR" }],
+    "AN1": [{ "starttime": "14:30", "endtime": "17:25", "day": "MO" }],
+    "AN2": [{ "starttime": "14:30", "endtime": "17:25", "day": "TU" }],
+    "AN4": [{ "starttime": "14:30", "endtime": "17:25", "day": "TH" }],
+    "AN5": [{ "starttime": "14:30", "endtime": "17:25", "day": "FR" }]
+  },
+
+  "segment-config": {
+    "1-2": {
+      "startDate": "2026-01-05",
+      "endDate": "20260209"
+    },
+    "3-4": {
+      "startDate": "2026-02-10",
+      "endDate": "20260320"
+    },
+    "5-6": {
+      "startDate": "2026-03-21",
+      "endDate": "20260427"
+    },
+    "3-6": {
+      "startDate": "2026-02-10",
+      "endDate": "20260427"
+    },
+    "1-4": {
+      "startDate": "2026-01-05",
+      "endDate": "20260320"
+    },
+    "1-6": {
+      "startDate": "2026-01-05",
+      "endDate": "20260427"
+    }
+  }
+}
