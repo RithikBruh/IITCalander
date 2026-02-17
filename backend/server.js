@@ -8,7 +8,14 @@ const app = express();
 app.use(express.json());
 const cors = require("cors")
 
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }))
+// Load allowed origins from settings.json
+const settings = JSON.parse(fs.readFileSync('./settings.json', 'utf8'));
+const allowedOrigins = settings.allowOrigins || [];
+
+app.use(cors({
+	origin: allowedOrigins,
+	credentials: true
+}))
 const oauth2Client = new google.auth.OAuth2(
 	process.env.CLIENT_ID,
 	process.env.SECRET_ID,

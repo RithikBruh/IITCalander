@@ -1,0 +1,8 @@
+{
+    "allowOrigins": [
+        "http://localhost:3000",
+        "http://your-frontend-domain.com",
+        "http://yourtailscaleipwherefrontenedisdeployed:5173",
+        "http://100.125.120.113:5173"
+    ]
+}
