@@ -42,7 +42,7 @@ Infra:
 
 ---
 
-## Architecture (important)
+## Architecture
 
 ### Data Flow
 
