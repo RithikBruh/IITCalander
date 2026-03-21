@@ -11,6 +11,7 @@ const cors = require("cors")
 // Load allowed origins from settings.json
 const settings = JSON.parse(fs.readFileSync('./settings.json', 'utf8'));
 const allowedOrigins = settings.allowOrigins || [];
+console.log(allowedOrigins);
 
 app.use(cors({
 	origin: allowedOrigins,
