@@ -37,9 +37,8 @@ AI:
 Infra:
 - Google Calendar API
 - OAuth 2.0
-- Raspberry Pi (self-hosted deployment)
-- Tailscale (secure remote access)
-
+- Raspberry Pi 
+- Self Hosted in Raspberry pi 5 using nginx and Tailscale
 ---
 
 ## Architecture
@@ -97,17 +96,21 @@ User Input (Slot, Segment, Course Name)
 * Google OAuth setup was initially confusing.
 * Token generation flow failed multiple times.
 * Calendar API permissions were misconfigured.
+* Faced Problems when creating production server and using nginx
+
 
 ### What I fixed
 
 * Implemented proper OAuth 2.0 flow.
 * Created reusable slot-to-time mapping logic.
 * Fixed token storage and refresh flow.
+* Sucessfully hosted production server and backend with nginx
 
 ### Tradeoffs made
 
 * Used static slot mappings instead of dynamic timetable parsing for simplicity.
 * No database used to keep deployment simple.
+* used Tailscale due to port forwarding problems
 
 ---
 
